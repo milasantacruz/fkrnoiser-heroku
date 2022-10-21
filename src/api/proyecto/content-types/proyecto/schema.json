@@ -57,11 +57,11 @@
         "audios"
       ]
     },
-    "categoria": {
+    "categorias": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::categoria.categoria",
-      "inversedBy": "proyecto"
+      "mappedBy": "proyecto"
     }
   }
 }

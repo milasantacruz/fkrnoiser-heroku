@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_categoria1_comp1s",
+  "info": {
+    "displayName": "SubComp",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    }
+  }
+}

@@ -34,10 +34,10 @@
       "repeatable": true,
       "component": "categoria1.comp1"
     },
-    "categoria": {
+    "servicio": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::categoria.categoria",
+      "target": "api::servicio.servicio",
       "inversedBy": "step"
     }
   }

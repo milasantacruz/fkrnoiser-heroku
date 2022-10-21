@@ -15,12 +15,6 @@
     "nombre": {
       "type": "string"
     },
-    "step": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::step.step",
-      "mappedBy": "categoria"
-    },
     "servicio": {
       "type": "relation",
       "relation": "manyToOne",
